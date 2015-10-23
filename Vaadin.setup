@@ -89,6 +89,10 @@
         name="org.eclipse.core.runtime">
       <setupTask
           xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.runtime/content-types/org.eclipse.wst.css.core.csssource/file-extensions"
+          value="scss"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.core.runtime/line.separator"
           value="&#xA;"/>
     </setupTask>
